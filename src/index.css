@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand tokens — Fővárosi Állat- és Növénykert (Budapest Zoo) logo palette */
+  --color-primary: #2c5f1a;      /* Deep zoo green (darkened logo green for text contrast) */
+  --color-primary-light: #489020; /* Logo green */
+  --color-accent: #f5a81c;       /* Logo amber / arch orange */
+  --color-accent-soft: #fbd98f;
+  --color-bg: #f8faf4;
+  --color-text: #2b2b2b;
+
+  /* Extended studio palette, derived from the brief */
+  --color-cream: #fcf8ee;        /* warm card surface, distinct from page bg */
+  --color-line: #e6dfc6;         /* hairline rule on light sections */
+  --color-ink: #0d1a0a;          /* green-black for the closing CTA, not flat #000 */
+  --color-ink-line: #1f3018;
+
+  --font-display: "Fraunces", "Iowan Old Style", serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --animate-float: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(5px); }
+  50% { transform: translateY(-5px); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-ink);
+}
+
+/* visible keyboard focus everywhere */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.font-display { font-family: var(--font-display); }
+
+/* signature: paw-print motif used as a quiet divider */
+.motif-divider {
+  position: relative;
+  width: 44px;
+  height: 22px;
+}
