@@ -23,8 +23,8 @@ export const translations = {
       title: "A mobiltelefon, mint oktatási eszköz",
 
       body: [
-        "A ZooNapló játékosan és kreatívan hozza közelebb az állatok világát a látogatókhoz, és megmutatja, hogy a mobiltelefon szórakoztató tanulásra is használható.",
-        "A látogató megfigyeli az állat viselkedését, majd a tapasztalatait rögzíti a saját digitális kutatónaplójában. Minden bejegyzésből egy egyedi állatos kártya születik, amely motiváció az egyedi gyűjtemény megszerzésében.",
+        "A ZooNapló játékosan és kreatívan hozza közelebb az állatok és növények világát a látogatókhoz, és megmutatja, hogy a mobiltelefon szórakoztató tanulásra is használható.",
+        "A látogató megfigyeli az élőlények viselkedését, majd a tapasztalatait rögzíti a saját digitális kutatónaplójában. Minden bejegyzésből egy egyedi kártya születik, amely motivációt nyújt a teljes gyűjtemény megszerzéséhez.",
       ],
 
       features: [
@@ -41,45 +41,24 @@ export const translations = {
         {
           icon: "crown",
           title: "Helyszínre szabott tartalom",
-          body: "A vizuális világ, az állatfajok és a feladatok teljes mértékben az Állatkert arculatához igazíthatók.",
+          body: "A vizuális világ, az állat- és növényfajok, valamint a feladatok teljes mértékben az Állatkert arculatához igazíthatók.",
         },
       ],
     },
 
     locations: {
       index: "02 / Előnyök",
-      title: "Tudatosabb látogatás, maradandó ismeretek",
+      title: "Aktivabb látogatás, maradandó ismeretek",
       body: "A ZooNapló ösztönzi a mélyebb megfigyelést, és értékálló digitális emléket ad a családoknak és iskolai csoportoknak.",
 
       cards: [
         {
-          title: "Az környezet mélyebb megismerés",
-          body: "Az interaktív adatgyűjtés és megfigyelés során a látogatók valódi felfedezővé válnak, és részletesebben is megismerik a park élővilágát. ",
+          title: "A környezet mélyebb megismerése",
+          body: "Az interaktív adatgyűjtés és megfigyelés során a látogatók valódi felfedezővé válnak, és részletesebben is megismerik a park élővilágát.",
         },
         {
           title: "Saját kutatói napló",
           body: "A saját fotókkal és jegyzetekkel kiegészített napló a látogatás után is megmarad, így a megszerzett tudás otthon is felidézhető.",
-        },
-      ],
-    },
-
-    turnkey: {
-      index: "04 / Megvalósítás",
-      eyebrow: "Működtetés és támogatás",
-      title: "Kulcsrakész megoldás",
-      lead: "A QRMB a teljes digitális hátteret kezeli a tervezéstől a fejlesztésen és a hostingon át a folyamatos üzemeltetésig.",
-      body: "Az Állatkert részéről nincs szükség IT-erőforrásra, és a munkatársak sem kapnak extra feladatot.",
-
-      features: [
-        {
-          icon: "cloud",
-          title: "Zökkenőmentes üzemeltetés",
-          body: "A fejlesztést, a biztonságos hostingot és a technikai karbantartást teljes egészében mi biztosítjuk.",
-        },
-        {
-          icon: "pen",
-          title: "Rugalmas frissítések",
-          body: "Gondoskodunk a tartalmak frissítéséről, az új állatok felvételéről és a későbbi továbbfejlesztésekről.",
         },
       ],
     },
@@ -103,7 +82,7 @@ export const translations = {
         {
           icon: "reset",
           title: "Dinamikus tartalomkezelés",
-          body: "Az évszakokhoz és programokhoz igazított feladatok időszakosan megszerzezhető, egyedi kártyákat adnak, ami rendszeres visszatérésre motiválja a látogatókat.",
+          body: "Az évszakokhoz és programokhoz igazított feladatok időszakosan megszerzhető, egyedi kártyákat adnak, ami rendszeres visszatérésre motiválja a látogatókat.",
         },
         {
           icon: "globe",
@@ -113,8 +92,29 @@ export const translations = {
       ],
     },
 
-    business: {
+    turnkey: {
       index: "04 / Megvalósítás",
+      eyebrow: "Működtetés és támogatás",
+      title: "Kulcsrakész megoldás",
+      lead: "A QRMB a teljes digitális hátteret kezeli a tervezéstől a fejlesztésen és a hostingon át a folyamatos üzemeltetésig.",
+      body: "Az Állatkert részéről nincs szükség IT-erőforrásra, és a munkatársak sem kapnak extra feladatot.",
+
+      features: [
+        {
+          icon: "cloud",
+          title: "Gondozásmentes üzemeltetés",
+          body: "Nincs szükség nagy összegű fejlesztési beruházásra. A felhőalapú hátteret és a folyamatos karbantartást kiszámítható, havi előfizetéssel biztosítjuk, de nyitottak vagyunk az Állatkert igényeihez igazodó egyéb megoldásokra is.",
+        },
+        {
+          icon: "pen",
+          title: "Rugalmas frissítések",
+          body: "Gondoskodunk a tartalmak frissítéséről, az új állatok és növények felvételéről, valamint a későbbi továbbfejlesztésekről.",
+        },
+      ],
+    },
+
+    business: {
+      index: "05 / Szakmai támogatás",
       title: "Egyedi tartalom, teljes körű szakmai támogatás",
 
       cards: [
@@ -134,7 +134,7 @@ export const translations = {
     },
 
     demo: {
-      index: "05 / Interaktív demó",
+      index: "06 / Interaktív demó",
       eyebrow: "Koncepció-bemutató",
       title: "Próbálja ki a működő prototípust!",
       body: "Olvassa be a QR-kódot a telefonjával, tegyen egy próbakutatást, és tapasztalja meg az élményt a látogatók szemszögéből!",
@@ -154,8 +154,8 @@ export const translations = {
     },
 
     cta: {
-      eyebrow: "",
-      title: "",
+      eyebrow: "Kapcsolat",
+      title: "Valósítsuk meg együtt!",
       body: "Szívesen egyeztetünk a részletekről, hogy a ZooNapló a Fővárosi Állat- és Növénykert látogatói élményének természetes és értékteremtő részévé váljon.",
       web: "www.qrmb.hu",
       email: "info@qrmb.hu",
@@ -169,158 +169,169 @@ export const translations = {
       concept: "Concept",
       locations: "Benefits",
       seasonal: "Seasonality",
-      business: "Turnkey Solution",
+      business: "Implementation",
       demo: "Demo",
       cta: "Contact",
     },
 
     hero: {
       eyebrow: "Digital Zoo Experience",
-      title: "ZooNapló: Discover, Observe, Record",
-      body: "An interactive field journal running directly in the mobile browser. Encourages mindful observation and active learning for visitors of the Budapest Zoo.",
-      footer: "Created by QRMB  |  Interactive Digital Experiences",
+      title: "ZooLog: Discover, Observe, Record!",
+      body: "An interactive digital research journal that works directly in a mobile browser, with no installation required. ZooLog encourages visitors to observe, explore, and learn more about the animals and plants at the Budapest Zoo & Botanical Garden.",
+      footer: "Created by: QRMB  |  Interactive Digital Experiences",
       scroll: "Scroll to explore",
     },
 
     concept: {
       index: "01 / Concept",
-      eyebrow: "Core Concept",
-      title: "Mobile Devices as Educational Tools",
+      eyebrow: "The Concept Behind ZooLog",
+      title: "Your Smartphone as a Tool for Learning",
 
       body: [
-        "ZooNapló aims to show children and adults that mobile devices can be valuable tools for learning, mindful observation, and education.",
-        "Instead of screen distraction, the application redirects attention to the real environment: visitors observe animal behavior firsthand and record their findings in a personal digital field journal.",
+        "ZooLog brings the world of animals and plants closer to visitors through playful and creative exploration, demonstrating that a smartphone can be more than a source of entertainment — it can also be a tool for engaging learning.",
+        "Visitors observe animal behavior and record their findings in their own digital research journal. Each entry becomes a unique collectible card, encouraging visitors to explore further and complete their collection.",
       ],
 
       features: [
         {
+          icon: "share",
+          title: "Shareable Content",
+          body: "Collected cards and observations can easily be shared on social media, helping visitors share their experiences and increasing awareness of the Zoo.",
+        },
+
+        {
           icon: "device",
           title: "Instant Access",
-          body: "No app installation or registration needed. Starts instantly in the mobile browser by scanning the entrance QR code.",
+          body: "Accessible directly from a mobile browser, with no app installation or registration required.",
         },
+
         {
           icon: "crown",
-          title: "Custom-Tailored",
-          body: "Visual design, featured species, and observation tasks can be fully aligned with the zoo's identity and exhibits.",
+          title: "Tailored to the Zoo",
+          body: "The visual identity, featured animal and plant species, and research tasks can all be fully tailored to the Zoo's brand and educational objectives.",
         },
       ],
     },
 
     locations: {
       index: "02 / Benefits",
-      title: "Mindful Visiting, Lasting Knowledge",
-      body: "ZooNapló encourages deeper observation and offers families and school groups a meaningful digital keepsake.",
+      title: "More Engaging Visits, Lasting Knowledge",
+      body: "ZooLog encourages deeper observation and creates a lasting digital memento for families and school groups.",
 
       cards: [
         {
-          title: "Mindful Animal Watching",
-          body: "Visitors stop and observe animal behavior rather than walking past, responding to guided observation prompts.",
+          title: "A Deeper Understanding of the Environment",
+          body: "Through interactive observation and data collection, visitors become explorers, discovering the Zoo's wildlife and environment in greater detail.",
         },
-        {
-          title: "Personal Research Journal",
-          body: "Enriched with photos and personal notes, the journal remains accessible after the visit to review acquired knowledge at home.",
-        },
-      ],
-    },
 
-    turnkey: {
-      index: "04 / Implementation",
-      eyebrow: "Operations & Support",
-      title: "Zero Operational Overhead",
-      lead: "QRMB handles the entire digital infrastructure, from design and development to hosting and continuous operation.",
-      body: "No technical resources are required from the zoo, and staff are not given any extra tasks.",
-
-      features: [
         {
-          icon: "cloud",
-          title: "Hassle-Free Maintenance",
-          body: "We fully manage development, secure hosting, and technical maintenance.",
-        },
-        {
-          icon: "pen",
-          title: "Flexible Content Updates",
-          body: "We take care of content refreshes, adding new animals, and future enhancements.",
+          title: "Your Own Research Journal",
+          body: "The journal can be enriched with personal photos and notes and remains accessible after the visit, allowing visitors to revisit what they learned at home.",
         },
       ],
     },
 
     seasonal: {
       index: "03 / Seasonality",
-      eyebrow: "Flexible Platform",
-      title: "Always Up-to-Date & Evolving",
-      body: "Content can be dynamically updated to offer returning visitors new experiences: seasonal themes, new arrivals, or temporary research challenges can easily be added.",
+      eyebrow: "A Flexible Platform",
+      title: "Always Up to Date",
+      body: "Content can be updated dynamically, making it easy to introduce seasonal themes, new arrivals, or temporary research programs throughout the year.",
 
       holidays: [
         "New Arrivals",
-        "Newborn Cubs",
+        "Newborn Animals",
         "World Animal Day",
         "Spring Awakening",
         "Winter at the Zoo",
-        "School Program Days",
+        "Themed School Days",
       ],
 
       features: [
         {
           icon: "reset",
           title: "Dynamic Content Management",
-          body: "Species, tasks, and questions adapt seamlessly to seasons or special zoo events.",
+          body: "Seasonal and event-based research tasks can offer unique limited-time collectible cards, giving visitors a reason to return and discover something new.",
         },
+
         {
           icon: "globe",
           title: "Multilingual Support",
-          body: "Available in Hungarian and English by default, with easy additions for other languages for international guests.",
+          body: "Available in Hungarian and English by default, with additional languages available to support international visitors.",
+        },
+      ],
+    },
+
+    turnkey: {
+      index: "04 / Implementation",
+      eyebrow: "Operation & Support",
+      title: "A Turnkey Solution",
+      lead: "QRMB manages the complete digital solution — from planning and development to hosting, maintenance, and ongoing operation.",
+      body: "The Zoo does not need to provide IT resources, and the platform does not create additional workload for staff.",
+
+      features: [
+        {
+          icon: "cloud",
+          title: "Fully Managed Operation",
+          body: "No large upfront development investment is required. Cloud infrastructure and ongoing maintenance are provided through a predictable monthly subscription, while alternative arrangements can also be considered to suit the Zoo's needs.",
+        },
+
+        {
+          icon: "pen",
+          title: "Flexible Updates",
+          body: "We take care of content updates, the addition of new animals and plants, and future improvements and developments of the platform.",
         },
       ],
     },
 
     business: {
-      index: "04 / Implementation",
-      title: "Custom Content, End-to-End Support",
+      index: "05 / Professional Support",
+      title: "Custom Content, Full Professional Support",
 
       cards: [
         {
           icon: "pen",
           title: "Tailored to the Zoo",
-          lead: "Every detail aligns with the world of the Budapest Zoo.",
-          body: "Educational content, tasks, and visual elements will be finalized in collaboration with the zoo's team.",
+          lead: "Every aspect can be adapted to the unique world of the Budapest Zoo & Botanical Garden.",
+          body: "Texts, observation tasks, and visual elements are developed and finalized together with the Zoo's professional team.",
         },
+
         {
           icon: "cloud",
           title: "Turnkey Infrastructure",
-          lead: "No technical overhead required.",
-          body: "From development and cloud infrastructure to database setup, QRMB manages the complete digital background.",
+          lead: "We take full responsibility for the technical infrastructure.",
+          body: "From development and cloud infrastructure to data architecture, everything is provided and maintained by QRMB.",
         },
       ],
     },
 
     demo: {
-      index: "05 / Interactive Demo",
-      eyebrow: "Concept Preview",
-      title: "Try the Working Prototype",
-      body: "Scan the QR code with your smartphone, try a sample research entry, and experience the journal from a visitor's perspective!",
+      index: "06 / Interactive Demo",
+      eyebrow: "Concept Demonstration",
+      title: "Try the Working Prototype!",
+      body: "Scan the QR code with your phone, try a sample research activity, and experience ZooLog from the visitor's perspective!",
 
       features: [
         {
           icon: "check",
-          title: "Flexible Concept Demo",
-          body: "This version is a proof-of-concept prototype. The final list of animals, educational content, questions, and visual design will be tailored together based on your input and guidance.",
+          title: "A Customizable Concept Demo",
+          body: "The presented version demonstrates the technical concept and overall user experience. The final selection of animals, educational content, and visual design will be developed into a finished product based on your requirements and the Zoo's professional guidance.",
         },
       ],
 
-      qrCaption: "Scan the QR code with your mobile phone!",
+      qrCaption: "Scan the QR code with your phone!",
       qrDescription:
-        "Viewing this presentation on mobile? Tap the button below:",
-      qrLink: "Open ZooNapló Demo",
+        "If you are viewing the presentation on your phone, tap the button below:",
+      qrLink: "Open the ZooLog Demo",
     },
 
     cta: {
-      eyebrow: "Next Steps",
-      title: "Let's Build It Together",
-      body: "This demo is a preview of what ZooNapló can achieve. We would love to discuss how to make this interactive journal a natural, value-adding part of the Budapest Zoo visitor experience.",
-      web: "www.qrmb.hu",
-      email: "info@qrmb.hu",
+      eyebrow: "Contact",
+      title: "Let's Bring It to Life Together",
+      body: "We would be happy to discuss the details and explore how ZooLog can become a natural and valuable part of the visitor experience at the Budapest Zoo & Botanical Garden.",
+      web: "www\\.qrmb.hu",
+      email: "info\\@qrmb.hu",
       phone: "+36 70 314 5178",
-      writeUs: "Contact Us",
+      writeUs: "Get in touch",
     },
   },
 };
