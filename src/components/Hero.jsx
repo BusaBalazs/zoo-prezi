@@ -72,10 +72,9 @@ export default function Hero() {
 
           <div className="hero-footer mt-10 mb-12 flex items-center gap-4">
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary/50">
-             {t.hero.footer}
+              {t.hero.footer}
             </span>
           </div>
-
         </div>
 
         <div className="order-1 lg:order-2">
@@ -87,12 +86,11 @@ export default function Hero() {
                 className="hero-image h-[340px] w-full object-cover object-[50%_45%] sm:h-[420px] lg:h-[520px]"
               />
             </div>
-            <div className="pointer-events-none absolute -bottom-4 -left-4 h-20 w-20 rounded-full border border-accent/40 sm:-bottom-6 sm:-left-6 sm:h-28 sm:w-28" />
           </div>
         </div>
       </div>
 
-      <div className=" inset-x-0 hidden justify-center sm:flex">
+      <div className="max-w-7xl mx-auto inset-x-0 hidden justify-start sm:flex pl-10">
         <span className="hero-footer flex items-center  gap-2 text-[11px] font-medium uppercase tracking-[0.2em] text-primary/40">
           {t.hero.scroll}
           <svg

@@ -23,11 +23,16 @@ export const translations = {
       title: "A mobiltelefon, mint oktatási eszköz",
 
       body: [
-        "A ZooNapló célja megmutatni a gyerekeknek és felnőtteknek, hogy a mobiltelefon tanulásra, tudatos megfigyelésre és ismeretterjesztésre is kiváló eszköz.",
-        "A látogató megfigyeli az állat viselkedését, majd a tapasztalatait rögzíti a saját digitális kutatónaplójában. Minden bejegyzésből egy egyedi állatos kártya születik, ami motiválhatja az egyedi gyűjtemény megszerzésében.",
+        "A ZooNapló játékosan és kreatívan hozza közelebb az állatok világát a látogatókhoz, és megmutatja, hogy a mobiltelefon szórakoztató tanulásra is használható.",
+        "A látogató megfigyeli az állat viselkedését, majd a tapasztalatait rögzíti a saját digitális kutatónaplójában. Minden bejegyzésből egy egyedi állatos kártya születik, amely motiváció az egyedi gyűjtemény megszerzésében.",
       ],
 
       features: [
+        {
+          icon: "share",
+          title: "Megosztható tartalom",
+          body: "A gyűjtött kártyák és megfigyelések könnyen megoszthatók a közösségi oldalakon, így a látogatók élményei népszerűsíthetik az Állatkertet.",
+        },
         {
           icon: "device",
           title: "Azonnali hozzáférés",
@@ -48,8 +53,8 @@ export const translations = {
 
       cards: [
         {
-          title: "Tudatos állatmegfigyelés",
-          body: "A látogatók nem csupán átsétálnak a kifutók előtt: megállnak, megfigyelik az állatok viselkedését, és rögzítik a megfigyeléseket.",
+          title: "Az környezet mélyebb megismerés",
+          body: "Az interaktív adatgyűjtés és megfigyelés során a látogatók valódi felfedezővé válnak, és részletesebben is megismerik a park élővilágát. ",
         },
         {
           title: "Saját kutatói napló",
@@ -59,8 +64,9 @@ export const translations = {
     },
 
     turnkey: {
+      index: "04 / Megvalósítás",
       eyebrow: "Működtetés és támogatás",
-      title: "Zéró teher az Állatkert felé",
+      title: "Kulcsrakész megoldás",
       lead: "A QRMB a teljes digitális hátteret kezeli a tervezéstől a fejlesztésen és a hostingon át a folyamatos üzemeltetésig.",
       body: "Az Állatkert részéről nincs szükség IT-erőforrásra, és a munkatársak sem kapnak extra feladatot.",
 
@@ -142,7 +148,8 @@ export const translations = {
       ],
 
       qrCaption: "Olvassa be a QR-kódot a telefonjával!",
-      qrDescription: "Ha telefonról nézi a prezentációt, kattintson az alábbi gombra:",
+      qrDescription:
+        "Ha telefonról nézi a prezentációt, kattintson az alábbi gombra:",
       qrLink: "ZooNapló demó megnyitása",
     },
 
@@ -217,6 +224,7 @@ export const translations = {
     },
 
     turnkey: {
+      index: "04 / Implementation",
       eyebrow: "Operations & Support",
       title: "Zero Operational Overhead",
       lead: "QRMB handles the entire digital infrastructure, from design and development to hosting and continuous operation.",
@@ -300,7 +308,8 @@ export const translations = {
       ],
 
       qrCaption: "Scan the QR code with your mobile phone!",
-      qrDescription: "Viewing this presentation on mobile? Tap the button below:",
+      qrDescription:
+        "Viewing this presentation on mobile? Tap the button below:",
       qrLink: "Open ZooNapló Demo",
     },
 

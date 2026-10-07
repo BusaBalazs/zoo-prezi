@@ -36,6 +36,18 @@ export function IconPen(props) {
   );
 }
 
+export function IconShare(props) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="18" cy="5" r="2.5" />
+      <circle cx="6" cy="12" r="2.5" />
+      <circle cx="18" cy="19" r="2.5" />
+      <path d="m8.2 13.1 7.6 4.8" />
+      <path d="m15.8 6.1-7.6 4.8" />
+    </svg>
+  );
+}
+
 export function IconCloud(props) {
   return (
     <svg {...base} {...props}>
@@ -98,4 +110,5 @@ export const iconMap = {
   check: IconCheck,
   cocktail: IconCocktail,
   star: IconStar,
+  share: IconShare,
 };
