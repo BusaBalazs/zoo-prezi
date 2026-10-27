@@ -12,7 +12,7 @@ export const translations = {
     hero: {
       eyebrow: "Digitális állatkerti élmény",
       title: "ZooNapló: Fedezd fel, figyeld meg, rögzítsd!",
-      body: "Telepítés nélkül, mobil böngészőből működő interaktív kutatónapló, amely tudatos megfigyelésre és tanulásra ösztönzi a Fővárosi Állat- és Növénykert látogatóit.",
+      body: "Üdvözlöm! Busa Balázs vagyok, a QRMB stúdió alapítója. Örömmel mutatom be Önnek a Fővárosi Állat- és Növénykert számára fejlesztett egyedi digitális platformunkat: egy applikáció-telepítés nélkül működő interaktív kutatónaplót, amely modern eszközökkel ösztönzi a látogatókat a természet elmélyült megfigyelésére.",
       footer: "Készítette: QRMB  |  Interaktív digitális élmények",
       scroll: "Görgessen a részletekhez",
     },
@@ -88,7 +88,7 @@ export const translations = {
         {
           icon: "globe",
           title: "Többnyelvű támogatás",
-          body: "Alapértelmezetten magyar és angol nyelven, igény szerint további nyelvekkel is bővíthető a külföldi vendégek számára.",
+          body: "Alapértelmezetten magyar, angol és német nyelven, igény szerint további nyelvekkel is bővíthető a külföldi vendégek számára.",
         },
       ],
     },
@@ -178,7 +178,7 @@ export const translations = {
     hero: {
       eyebrow: "Digital Zoo Experience",
       title: "ZooLog: Discover, Observe, Record!",
-      body: "An interactive digital research journal that works directly in a mobile browser, with no installation required. ZooLog encourages visitors to observe, explore, and learn more about the animals and plants at the Budapest Zoo & Botanical Garden.",
+      body: "Welcome! I am Balázs Busa, founder of QRMB Studio. I am delighted to present our custom digital platform developed for the Budapest Zoo and Botanical Garden: an interactive research journal operating seamlessly in mobile browsers without requiring any app installation, designed to inspire visitors to engage in mindful observation of nature through modern tools.",
       footer: "Created by: QRMB  |  Interactive Digital Experiences",
       scroll: "Scroll to explore",
     },
@@ -258,7 +258,7 @@ export const translations = {
         {
           icon: "globe",
           title: "Multilingual Support",
-          body: "Available in Hungarian and English by default, with additional languages available to support international visitors.",
+          body: "Available in Hungarian, English and Germany by default, with additional languages available to support international visitors.",
         },
       ],
     },
